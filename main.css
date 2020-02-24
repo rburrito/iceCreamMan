@@ -1,0 +1,32 @@
+body {
+background: linear-gradient(90deg, #DBDBDB,#F2F2F2);
+//background: url("https://images.pexels.com/photos/108370/pexels-photo-108370.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+//background-repeat: no-repeat;
+//background-size: cover;
+}
+
+#chatboxImageContainer {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img {
+  width:30vw;
+  display: flex;
+  justify-content: center;
+  border-radius: 20%;
+}
+
+#chatContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#buttonContainer {
+  display:flex;
+  justify-content: center;
+  width: 100%;
+}
