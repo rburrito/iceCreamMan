@@ -3,30 +3,67 @@ background: linear-gradient(90deg, #DBDBDB,#F2F2F2);
 //background: url("https://images.pexels.com/photos/108370/pexels-photo-108370.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
 //background-repeat: no-repeat;
 //background-size: cover;
+font-family: Raleway;
+}
+
+h1 {
+  text-align: center;
 }
 
 #chatboxImageContainer {
   width: 100%;
-  height: 80%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 img {
-  width:30vw;
+  height:29.5vw;
   display: flex;
   justify-content: center;
-  border-radius: 20%;
+  border-radius: 10%;
 }
 
 #chatContainer {
-  display: flex;
+  display: none;
   flex-direction: column;
+  width:32vw;
+  height:33vw;
+  border-radius: 20%;
 }
 
 #buttonContainer {
   display:flex;
   justify-content: center;
   width: 100%;
+}
+
+#chatbox {
+  height:25vw;
+  width: 100%;
+  border-style:solid;
+  border-width:thin;
+  border-radius: 5% 5% 0% 0%;
+}
+
+#sendbox {
+  display: flex;
+  flex-direction: row;
+  height: 4vw;
+}
+
+#sendbutton{
+  border-radius: 0% 0% 0% 0%;
+  height: 4.20vw;
+}
+
+#textbox {
+  width:100%;
+  height:4vw;
+  border-radius: 0% 0% 0% 0%;
+  font-size:10px;
+  border-style: none solid solid solid;
+  border-width: thin;
+  background-color:inherit;
 }
